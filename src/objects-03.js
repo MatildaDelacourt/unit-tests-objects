@@ -24,6 +24,8 @@
  */
 function getVolumeOfBox(box) {
   // write your code here & return value
+  const volume = box.height * box.width * box.length;
+  return volume;
 }
 
 module.exports = {
